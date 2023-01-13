@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,MAAM","sources":["src/fetchCountries.js"],"sourcesContent":["fetch('https://restcountries.com/v3.1/name/peru');"],"names":["fetch"],"version":3,"file":"index.600a36b3.js.map"}
