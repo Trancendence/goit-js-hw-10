@@ -1,7 +1,1 @@
-function fetchCountries(name) {
-fetch('https://restcountries.com/v3.1/name/{name}').then(name => {
-return [name]
-})
-
-
-}
+fetch('https://restcountries.com/v3.1/name/{name}');
