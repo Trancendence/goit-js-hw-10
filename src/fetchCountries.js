@@ -1,1 +1,4 @@
-fetch('https://restcountries.com/v3.1/name/{name}');
+function fetchCountries(name) {
+fetch('https://restcountries.com/v3.1/name/{name}').then()
+
+}
