@@ -85,6 +85,8 @@ function renderCountryInfo(countries) {
 
 function alertWrongName() {
   Notiflix.Notify.failure('Oops, there is no country with that name');
+  return (countryList.innerHTML = ''), (countryInfo.innerHTML = '');
+
 }
 
 function alertTooManyMatches() {
